@@ -7,11 +7,18 @@
     <groupId>com.nnnoopt.myMicro</groupId>
     <artifactId>Perfomance</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>task1</module>
+        <module>task2</module>
+        <module>task3</module>
+        <module>task4</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    
+
 </project>
